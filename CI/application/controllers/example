@@ -1,0 +1,29 @@
+http://localhost/CI
+http://localhost/CI/index.php/Welcome
+http://localhost/CI/index.php/Welcome/index
+http://localhost/CI/index.php/Home/index
+http://localhost/CI/Home
+
+in CI add a file .htaccess
+
+
+config/autoload.php   line61 =>
+$autoload['libraries'] = array('batabase');
+
+database.php line76
+'username' => 'root',
+'password' => '',
+'database' => 'postdb',
+
+
+1.ci copy to git dir 'week01'
+2.git-bash: cd week01
+3.git-bash: git add
+4.git-bash: git commit -m "add ci"
+5.git-bash: git push origin master
+
+1.bootstrap
+2.form,form-validation helper
+3.email
+4.ci login + register
+
